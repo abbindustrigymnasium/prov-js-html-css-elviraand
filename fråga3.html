@@ -11,8 +11,12 @@
 
 
     <script>
-        // Här ska din JavaScript kod vara
+        const names = ["kalle", "pelle", "nalle"];
 
+        names.forEach(function(entry) {
+            let full = names.indexOf(entry) + ". " + entry
+            alert(full);
+        });
 
     </script>
 </body>

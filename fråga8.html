@@ -10,7 +10,17 @@
     <!-- Här ska din HTML kod vara -->
 
     <script>
-        // Här ska din JavaScript kod vara
+        let numbers = [12, 25, 37, 43, 59, 61]
+        let result = ages.filter(filterEvenNumbers);
+        let evenNumbers = []
+
+        function filterEvenNumbers(){ 
+            numbers.forEach(function(number) {
+                if(number % 2 == 0){
+                evenNumbers.push(number)
+                }
+            });
+        }
 
 
     </script>

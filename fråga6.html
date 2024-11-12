@@ -11,8 +11,16 @@
 
 
     <script>
-        // Här ska din JavaScript kod vara
-
+        let politiker = [{id: 1, firstName: 'Stefan', lastName: 'Löven'},
+                         {id: 2, firstName: 'Annie', lastName: 'Lööv'},
+                         {id: 3, firstName: 'Nyamko', lastName: 'Sabuni'},
+                         {id: 4, firstName: 'Jimmie', lastName: 'Åkesson'},
+                         {id: 5, firstName: 'Per', lastName: 'Bolund'},]
+        
+        politiker.forEach(function(person) {
+            let fullname = person["firstName"] + " - " + person["lastName"]
+            alert(fullname);
+        });         
 
     </script>
 </body>
